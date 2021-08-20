@@ -51,14 +51,15 @@
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
+      overflow: hidden;
 
       @include mobile{
         width: 130px;
         height: 100px;    
       }
-
       h3 {
         position: absolute;
+
         font-size: 20px;
       }
 
@@ -69,13 +70,15 @@
         z-index: 1;
       }
 
-      &:hover {
+      
+
+      &:hover{ 
         background-color: $mainColor;
         img {
           opacity: 0.2;
           z-index: 0;
         }
-      }
+      } 
     }
   }
 }

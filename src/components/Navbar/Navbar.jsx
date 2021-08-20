@@ -1,5 +1,4 @@
 import "./Navbar.scss"
-import { Mail } from "@material-ui/icons";
 
 export default function Navbar({menuOpen, setMenuOpen}) {
     return (

@@ -10,9 +10,10 @@ export default function Works() {
         id: "1",
         icon: "./assets/house.png",
         title: "Palumbo Design",
-        desc:"Palumbo Design has earned its reputation as a premier modern home designer and development company in California. ",
+        desc:"Palumbo Design has earned its reputation as a premier modern home designer and development company in California. Coming Soon.",
         a:"https://palumbodesign.netlify.app/",
         img:"assets/Home.jpg",
+        alt:"Palumbo Design",
     },
     {
         id: "2",
@@ -21,13 +22,16 @@ export default function Works() {
         desc:"Ocean Bank Inc it's not just a bank, it's your friend who will help you grow financially in any way.",
         a:"https://oceanbankinc.netlify.app/",
         img:"assets/Ocean.png",
+        alt:"Ocean Bank Inc",
     },
     {
         id: "3",
         icon: "./assets/www.png",
-        title: "ISMT 2020 Website",
-        desc:"Website made for ISMT Multimedia degree for the year 2020.",
-        img:"assets/ismt.png",
+        title: "Bank Dashboard",
+        desc:"User dashboard created for Ocean Bank Inc. using glassmorphism",
+        a: "https://oceanbankincdashboard.netlify.app/",
+        img:"./assets/dash.png",
+        alt:"Ocean Bank Inc Dashboard",
     },
   ];
 
@@ -46,7 +50,7 @@ export default function Works() {
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="Phone Icon" />
+                    <img src={d.icon} alt={d.alt} />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
@@ -55,7 +59,7 @@ export default function Works() {
               </div>
               <div className="right">        
                 <a href={d.a}>
-                    <img src={d.img}/>
+                    <img src={d.img} alt={d.alt}/>
                 </a>  
               </div>
             </div>

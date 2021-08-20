@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../PortfolioList/PortfolioList";
 import "./Portfolio.scss";
 import {featuredPortfolio,  webPortfolio, mobilePortfolio, designPortfolio, otherPortfolio} from "../../data"
+import { Link } from "react-router-dom";
+
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured")
@@ -60,7 +62,7 @@ export default function Portfolio() {
             <h1>Work</h1>
             <ul>
                 {list.map(item=>(
-                    <PortfolioList 
+                    <PortfolioList  
                     title={item.title} 
                     active={selected === item.id} 
                     setSelected={setSelected} 
@@ -70,9 +72,10 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 {data.map((d) => (
-                <div className="item">
-                    <img src={d.img} alt="" />
-                    <h3>{d.title}</h3>
+                <div className="item">  
+                  <Link to={d.link}/>    
+                  <img src={d.img} alt={d.alt}/>                  
+                  <h3>{d.title}</h3>
                 </div>
                 ))} 
             </div>
