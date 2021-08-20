@@ -5,26 +5,26 @@ export const featuredPortfolio = [
       id: 1,
       title: "Coming Soon",
       img:"assets/Home.jpg",
-      link: "https://oceanbankinc.netlify.app/",
+      a: "https://oceanbankinc.netlify.app/",
     },
     {
       id: 2,
       title:"Banking Website",
       img:"assets/Ocean.png",
-      link: "https://oceanbankinc.netlify.app/",
+      a: "https://oceanbankinc.netlify.app/",
     },
     {
       id: 3,
       title: "Bank Dashboard",
       img: "assets/dash.png",
-      link: "https://oceanbankincdashboard.netlify.app/",
+      a: "https://oceanbankincdashboard.netlify.app/",
       alt: "Ocean Bank dashboard"
     },
     {
       id: 4,
       title: "Project Ivy",
       img: "assets/capa.jpg",
-      link: "https://www.behance.net/gallery/99301099/Project-Ivy",
+      a:"https://www.behance.net/gallery/99301099/Project-Ivy",
     },
     {
       id: 5,
