@@ -6,7 +6,6 @@ export default function Navbar({menuOpen, setMenuOpen}) {
             <div className="wrapper">
                 <div className="left">
                     <div className="itemcontainer">
-                    
                     </div>
                 </div>
                 <div className="right">

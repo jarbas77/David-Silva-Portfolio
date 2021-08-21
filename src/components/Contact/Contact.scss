@@ -2,7 +2,7 @@
 
 .contact{
     background-color: #EAD1DC;
-  display: flex;
+    display: flex;
 
   @include mobile {
     flex-direction: column;
@@ -30,6 +30,7 @@
 
     h2 {
       font-size: 30px;
+      color: #8D909B;
     }
 
     form {
@@ -76,9 +77,13 @@
           outline: none;
         }
       }
-
+      .icons{
+        padding: 10px;
+        justify-content: space-between; 
+      }
+      
       span {
-        color: green;
+        color: #8D909B;
       }
     }
   }
