@@ -5,7 +5,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Coming Soon",
       img:"assets/Home.jpg",
-      a: "https://oceanbankinc.netlify.app/",
+      a: "",
     },
     {
       id: 2,
