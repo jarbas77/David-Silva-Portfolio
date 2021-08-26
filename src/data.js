@@ -21,15 +21,22 @@ export const featuredPortfolio = [
       alt: "Ocean Bank dashboard"
     },
     {
-      id: 4,
+      id: 3,
+      title: "KeyKeeper",
+      img: "assets/keykeeper.png",
+      a:"https://keykeeper.netlify.app/",
+    },
+    {
+      id: 5,
       title: "Project Ivy",
       img: "assets/capa.jpg",
       a:"https://www.behance.net/gallery/99301099/Project-Ivy",
     },
     {
-      id: 5,
+      id: 6,
       title: "ISMT Website",
       img: "assets/ismt.png",
+      a:"https://www.behance.net/gallery/99301099/Project-Ivy",
     },
 ];
 
@@ -54,6 +61,12 @@ export const webPortfolio = [
     },
     {
       id: 4,
+      title: "Keykeeper",
+      img: "assets/keykeeper.png",
+      a:"https://keykeeper.netlify.app/",
+    },
+    {
+      id: 5,
       title: "ISMT Website",
       img:"assets/ismt.png",
     },

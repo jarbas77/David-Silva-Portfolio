@@ -9,9 +9,9 @@ export default function Works() {
     {
         id: "1",
         icon: "./assets/house.png",
-        title: "Palumbo Design",
+        title: "Coming Soon",
         desc:"Palumbo Design has earned its reputation as a premier modern home designer and development company in California. Coming Soon.",
-        a:"https://palumbodesign.netlify.app/",
+        a:"",
         img:"assets/Home.jpg",
         alt:"Palumbo Design",
     },
@@ -27,11 +27,11 @@ export default function Works() {
     {
         id: "3",
         icon: "./assets/www.png",
-        title: "Bank Dashboard",
-        desc:"User dashboard created for Ocean Bank Inc. using glassmorphism",
-        a: "https://oceanbankincdashboard.netlify.app/",
-        img:"./assets/dash.png",
-        alt:"Ocean Bank Inc Dashboard",
+        title: "KeyKeeper website",
+        desc:"Website for KeyKeeper hosting management",
+        a: "https://keykeeper.netlify.app/",
+        img:"./assets/keykeeper.png",
+        alt:"Keykeeper website",
     },
   ];
 
