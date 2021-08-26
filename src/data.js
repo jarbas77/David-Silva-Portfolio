@@ -36,7 +36,7 @@ export const featuredPortfolio = [
       id: 6,
       title: "ISMT Website",
       img: "assets/ismt.png",
-      a:"https://www.behance.net/gallery/99301099/Project-Ivy",
+      a:"",
     },
 ];
 
