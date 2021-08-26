@@ -67,7 +67,7 @@ export const webPortfolio = [
     },
     {
       id: 5,
-      title: "ISMT Website",
+      title: "ISMT Websit",
       img:"assets/ismt.png",
     },
 ];
