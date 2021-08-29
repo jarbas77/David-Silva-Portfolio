@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../PortfolioList/PortfolioList";
 import "./Portfolio.scss";
 import {featuredPortfolio,  webPortfolio, mobilePortfolio, designPortfolio, otherPortfolio} from "../../data"
-import { Link } from "react-router-dom";
+
 
 
 export default function Portfolio() {
