@@ -18,10 +18,10 @@ export default function Works() {
     {
         id: "2",
         icon: "./assets/phone.png",
-        title: "Ocean Bank",
-        desc:"Ocean Bank Inc it's not just a bank, it's your friend who will help you grow financially in any way.",
-        a:"https://oceanbankinc.netlify.app/",
-        img:"assets/Ocean.png",
+        title: "Le Bistro Central",
+        desc:"Le Bistro Central is a fictional Bistro, created to represent what a modern restaurant website looked like ",
+        a:"https://lebistrocentral.netlify.app/",
+        img:"assets/bistro.png",
         alt:"Ocean Bank Inc",
     },
     {
